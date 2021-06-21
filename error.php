@@ -1,4 +1,4 @@
 <?php
 
-header("location: index.php?success=0");
+header("location: index.php?success=2");
 ?>
