@@ -223,7 +223,7 @@ if($success==1)
 	echo'<div class="alert alert-success">
    تم ارسال الرسالة. <strong> بنجاح!</strong>
 </div>';
-if($success==0)
+if($success==2)
 echo'<div class="alert alert-danger">
   لم يتم إرسال الرسالة. يرجى إعطاء الصلاحيات للتطبيق
 </div>';
