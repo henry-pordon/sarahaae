@@ -1,6 +1,6 @@
 <?php
 session_start();
-$txt=$_POST['Text'];
+//$txt=$_POST['Text'];
 //$_SESSION['text']=$txt;
 require_once('Facebook/autoload.php');
 
