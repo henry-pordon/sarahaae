@@ -219,10 +219,15 @@ body{font-family:'El Messiri';}
 
 <?php
 $success=@$_GET['success'];
-if($success)
+if($success==1)
 	echo'<div class="alert alert-success">
    تم ارسال الرسالة. <strong> بنجاح!</strong>
 </div>';
+if($success==0)
+echo'<div class="alert alert-danger">
+  لم يتم إرسال الرسالة. يرجى إعطاء الصلاحيات للتطبيق
+</div>';
+	
 ?>
 
 <br>
